@@ -150,3 +150,9 @@ answerButton.onclick = async () => {
     });
   });
 };
+hangupButton.onclick = () => {
+   pc.close();
+    //window.location.reload();
+   window.close();
+    
+};
